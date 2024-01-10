@@ -3,6 +3,16 @@ import './App.css';
 
 function App() {
   return (
+<body>
+<h1 style = {{color:"red"}}>Test</h1>
+<p>Text</p>
+</body>
+  );
+}
+
+function Default()
+{
+  return(
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
@@ -17,9 +27,9 @@ function App() {
         >
           Learn React
         </a>
+        <p>Test</p>
       </header>
     </div>
   );
 }
-
 export default App;
